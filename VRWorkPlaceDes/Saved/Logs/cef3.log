@@ -1,0 +1,23 @@
+[0726/213752:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/213823:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/213823:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/213919:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/213919:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/213950:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/214018:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/214102:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/214122:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/214128:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/214309:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/214434:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/214459:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/214459:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/214544:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/214544:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/214613:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/214613:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/214737:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/214813:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/214813:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[0726/214813:ERROR:ipc_channel_win.cc(414)] pipe error: 232
+[0726/215643:ERROR:gpu_video_decode_accelerator.cc(276)] HW video decode not available for profile 12

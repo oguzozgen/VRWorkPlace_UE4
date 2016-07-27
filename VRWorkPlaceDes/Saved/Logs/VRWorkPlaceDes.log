@@ -1,0 +1,607 @@
+﻿Log file open, 07/26/16 21:25:43
+LogInit:Display: Running engine for game: VRWorkPlaceDes
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-768688528) SRandInit(-768688526).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.087990
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.07.26-18.25.43:976][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.26-18.25.43:976][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.26-18.25.43:986][  0]LogInit: Computer: ASDASDASD-PC
+[2016.07.26-18.25.43:986][  0]LogInit: User: asdasdasd
+[2016.07.26-18.25.43:986][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.07.26-18.25.43:986][  0]LogInit: High frequency timer resolution =3.492158 MHz
+[2016.07.26-18.25.43:986][  0]LogMemory: Memory total: Physical=19.9GB (20GB approx)
+[2016.07.26-18.25.43:986][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.26-18.25.43:986][  0]LogMemory: Process Physical Memory: 191.40 MB used, 191.40 MB peak
+[2016.07.26-18.25.43:986][  0]LogMemory: Process Virtual Memory: 196.91 MB used, 196.91 MB peak
+[2016.07.26-18.25.43:986][  0]LogMemory: Physical Memory: 6848.27 MB used, 20377.45 MB total
+[2016.07.26-18.25.43:986][  0]LogMemory: Virtual Memory: 522.43 MB used, 8388608.00 MB total
+[2016.07.26-18.25.44:028][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.26-18.25.44:556][  0]LogD3D11RHI: D3D11 adapters:
+[2016.07.26-18.25.44:592][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.07.26-18.25.44:592][  0]LogD3D11RHI:       4007/0/9932 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.07.26-18.25.44:592][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.07.26-18.25.44:599][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.07.26-18.25.44:599][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2016.07.26-18.25.44:599][  0]LogWindows: EnumDisplayDevices:
+[2016.07.26-18.25.44:599][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2016.07.26-18.25.44:600][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2016.07.26-18.25.44:600][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.07.26-18.25.44:600][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.07.26-18.25.44:600][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2016.07.26-18.25.44:600][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.07.26-18.25.44:600][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.07.26-18.25.44:600][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.07.26-18.25.44:600][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.07.26-18.25.44:600][  0]LogD3D11RHI:   Driver Version: 365.19 (internal:10.18.13.6519, unified:365.19)
+[2016.07.26-18.25.44:600][  0]LogD3D11RHI:      Driver Date: 5-9-2016
+[2016.07.26-18.25.44:600][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.26-18.25.44:619][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.26-18.25.44:635][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.07.26-18.25.44:635][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Intermediate/Shaders/WorkingDirectory/8576/).
+[2016.07.26-18.25.44:635][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ASDASD~1/AppData/Local/Temp/UnrealShaderWorkingDir/42A1AE8A4384E5868A691E922EFBF966/'.
+[2016.07.26-18.25.44:635][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.26-18.25.45:860][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.26-18.25.45:874][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.26-18.25.45:888][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.26-18.25.45:902][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.26-18.25.45:916][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.26-18.25.45:928][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.26-18.25.45:939][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.26-18.25.45:951][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.26-18.25.45:963][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.26-18.25.45:975][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.26-18.25.45:987][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.26-18.25.46:011][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.26-18.25.46:011][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.26-18.25.46:012][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.26-18.25.46:037][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.26-18.25.46:048][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.07.26-18.25.46:060][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.26-18.25.46:071][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.26-18.25.46:082][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.26-18.25.46:082][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.26-18.25.46:185][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.26-18.25.46:279][  0]LogDerivedDataCache: Loaded boot cache 0.09s 48MB C:/Users/asdasdasd/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.26-18.25.46:280][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/asdasdasd/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.07.26-18.25.46:280][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.26-18.25.46:280][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.26-18.25.46:280][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.26-18.25.46:280][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.26-18.25.46:303][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.26-18.25.46:314][  0]LogDerivedDataCache: Using Local data cache path C:/Users/asdasdasd/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.26-18.25.46:570][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.26-18.25.46:571][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.07.26-18.25.46:775][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.26-18.25.46:775][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.26-18.25.46:775][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.07.26-18.25.47:195][  0]LogAssetRegistry: FAssetRegistry took 0.0201 seconds to start up
+[2016.07.26-18.25.47:220][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.019061 seconds
+[2016.07.26-18.25.47:228][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.07.26-18.25.47:228][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.07.26-18.25.47:228][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.07.26-18.25.47:243][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.26-18.25.47:509][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.26-18.25.47:509][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.26-18.25.48:354][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.26-18.25.48:596][  0]SourceControl: Info Source control is disabled
+[2016.07.26-18.25.48:597][  0]SourceControl: Info Source control is disabled
+[2016.07.26-18.25.48:608][  0]SourceControl: Info Source control is disabled
+[2016.07.26-18.25.48:618][  0]SourceControl: Info Source control is disabled
+[2016.07.26-18.25.48:899][  0]LogEngine: Initializing Engine...
+[2016.07.26-18.25.48:911][  0]LogHMD: SteamVR failed to initialize.  Err: 126
+[2016.07.26-18.25.48:917][  0]LogHMD: SteamVR failed to initialize.  Err: 126
+[2016.07.26-18.25.49:100][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.26-18.25.49:112][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.26-18.25.49:124][  0]LogInit: FAudioDevice initialized.
+[2016.07.26-18.25.49:171][  0]LogDerivedDataCache: Saved boot cache 0.05s 48MB C:/Users/asdasdasd/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.26-18.25.49:184][  0]LogInit: Texture streaming: Enabled
+[2016.07.26-18.25.49:214][  0]LogInit: Transaction tracking system initialized
+[2016.07.26-18.25.49:246][  0]BlueprintLog: New page: Editor Load
+[2016.07.26-18.25.49:461][  0]LocalizationService: Info Localization service is disabled
+[2016.07.26-18.25.49:942][  0]LogConsoleResponse:Display: 
+[2016.07.26-18.25.50:056][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine4Projects/VRWorkPlaceDes/Content/' took 0.01s
+[2016.07.26-18.25.50:056][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.07.26-18.25.50:056][  0]LogCook:Display: Mobile HDR setting 1
+[2016.07.26-18.25.50:191][  0]SourceControl: Info Source control is disabled
+[2016.07.26-18.25.50:192][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.26-18.25.50:192][  0]LightingResults: New page: Lighting Build
+[2016.07.26-18.25.50:196][  0]MapCheck: New page: Map Check
+[2016.07.26-18.25.50:196][  0]LightingResults: New page: Lighting Build
+[2016.07.26-18.25.50:533][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.07.26-18.25.50:539][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.26-18.25.50:544][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.26-18.25.50:582][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.3ms to complete.
+[2016.07.26-18.25.50:582][  0]LogFileHelpers: Loading map 'Template_Default' took 0.390
+[2016.07.26-18.25.50:749][  0]LogCollectionManager: Loaded 0 collections in 0.002707 seconds
+[2016.07.26-18.25.50:819][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine4Projects/VRWorkPlaceDes/Saved/Collections/' took 0.01s
+[2016.07.26-18.25.50:819][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine4Projects/VRWorkPlaceDes/Content/Developers/asdasdasd/Collections/' took 0.01s
+[2016.07.26-18.25.50:819][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine4Projects/VRWorkPlaceDes/Content/Collections/' took 0.01s
+[2016.07.26-18.25.50:819][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.07.26-18.25.50:832][  0]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2047 classes and 369 folders.
+[2016.07.26-18.25.50:838][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.07.26-18.25.50:838][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.07.26-18.25.50:839][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2016.07.26-18.25.50:846][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.07.26-18.25.50:896][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.07.26-18.25.50:902][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.07.26-18.25.50:920][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.26-18.25.50:925][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.07.26-18.25.50:951][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.07.26-18.25.50:951][  0]LogLoad: Full Startup: 7.88 seconds (BP compile: 0.05 seconds)
+[2016.07.26-18.25.50:951][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.07.26-18.25.50:951][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.07.26-18.25.50:964][  0]LogOcInput: OculusInput pre-init called
+[2016.07.26-18.25.50:985][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.07.26-18.25.51:176][  0]LogRenderer: Reallocating scene render targets to support 1288x436 (Frame:2).
+[2016.07.26-18.25.51:359][  3]LogAssetRegistry: Asset discovery search completed in 4.1847 seconds
+[2016.07.26-18.25.51:359][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.07.26-18.25.51:359][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2016.07.26-18.26.55:177][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/vrWorkplace" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/Scene/vrWorkplace.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.07.26-18.26.55:237][205]LogSavePackage: Save=34.93ms
+[2016.07.26-18.26.55:237][205]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/vrWorkplace80284DE64762BF90FC49CF9903DB27BF.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/Scene/vrWorkplace.umap'
+[2016.07.26-18.26.55:237][205]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/Scene/vrWorkplace.umap
+[2016.07.26-18.26.55:261][205]LogFileHelpers: Saving map 'vrWorkplace' took 0.304
+[2016.07.26-18.28.11:846][985]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Unity dosyalar\3dmodels\Tablexwsssss.fbx)
+[2016.07.26-18.28.11:864][985]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.07.26-18.28.11:864][985]LogFbx: ItemName: NodeAttribute, ItemCount : 3
+[2016.07.26-18.28.11:864][985]LogFbx: ItemName: Geometry, ItemCount : 5
+[2016.07.26-18.28.11:864][985]LogFbx: ItemName: Model, ItemCount : 8
+[2016.07.26-18.28.11:864][985]LogFbx: ItemName: Material, ItemCount : 6
+[2016.07.26-18.28.11:872][985]LogFbx: Loading FBX Scene from D:\Unity dosyalar\3dmodels\Tablexwsssss.fbx
+[2016.07.26-18.28.11:910][985]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.26-18.28.19:479][985]LogFbx: Loading FBX Scene from D:\Unity dosyalar\3dmodels\Tablexwsssss.fbx
+[2016.07.26-18.28.19:517][985]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.26-18.28.19:523][985]LogLinker:Warning: Can't find file '/Game/FBX/Material_004'
+[2016.07.26-18.28.19:523][985]LogLinker:Warning: Can't find file '/Game/FBX/Material_004'
+[2016.07.26-18.28.19:526][985]LogMaterial: Missing cached shader map for material Material_004, compiling. 
+[2016.07.26-18.28.19:563][985]LogFbx:Warning: Triangulating static mesh Cube.004
+[2016.07.26-18.28.33:746][985]LogLinker:Warning: Can't find file '/Game/FBX/Material'
+[2016.07.26-18.28.33:746][985]LogLinker:Warning: Can't find file '/Game/FBX/Material'
+[2016.07.26-18.28.33:749][985]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.07.26-18.28.33:765][985]LogFbx:Warning: Triangulating static mesh Cube
+[2016.07.26-18.28.34:797][985]LogLinker:Warning: Can't find file '/Game/FBX/Material_001'
+[2016.07.26-18.28.34:798][985]LogLinker:Warning: Can't find file '/Game/FBX/Material_001'
+[2016.07.26-18.28.34:807][985]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2016.07.26-18.28.34:825][985]LogLinker:Warning: Can't find file '/Game/FBX/Material_002'
+[2016.07.26-18.28.34:826][985]LogLinker:Warning: Can't find file '/Game/FBX/Material_002'
+[2016.07.26-18.28.34:829][985]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2016.07.26-18.28.34:851][985]LogLinker:Warning: Can't find file '/Game/FBX/Material_003'
+[2016.07.26-18.28.34:851][985]LogLinker:Warning: Can't find file '/Game/FBX/Material_003'
+[2016.07.26-18.28.34:856][985]LogMaterial: Missing cached shader map for material Material_003, compiling. 
+[2016.07.26-18.28.34:876][985]LogLinker:Warning: Can't find file '/Game/FBX/Material_005'
+[2016.07.26-18.28.34:876][985]LogLinker:Warning: Can't find file '/Game/FBX/Material_005'
+[2016.07.26-18.28.34:880][985]LogMaterial: Missing cached shader map for material Material_005, compiling. 
+[2016.07.26-18.28.34:897][985]LogFbx:Warning: Triangulating static mesh Cube.001
+[2016.07.26-18.28.35:953][985]LogFbx:Warning: Triangulating static mesh Cube.002
+[2016.07.26-18.28.37:013][985]LogFbx:Warning: Triangulating static mesh Cube.003
+[2016.07.26-18.28.38:251][985]LogStaticMesh: Building static mesh Tablexwsssss...
+[2016.07.26-18.28.39:836][985]LogStaticMesh: Built static mesh [1.58s] /Game/FBX/Tablexwsssss.Tablexwsssss
+[2016.07.26-18.28.40:105][985]LogStaticMesh:Warning: Tablexwsssss has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.26-18.28.40:164][985]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.26-18.28.40:164][985]FBXImport:Warning: Warning Tablexwsssss has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.26-18.28.40:466][985]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Unity dosyalar\3dmodels\AppleOneinOne.FBX)
+[2016.07.26-18.28.40:535][985]LogFbx: Loading FBX Scene from D:\Unity dosyalar\3dmodels\AppleOneinOne.FBX
+[2016.07.26-18.28.40:839][985]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.26-18.28.40:847][985]LogLinker:Warning: Can't find file '/Game/FBX/aluminium'
+[2016.07.26-18.28.40:848][985]LogLinker:Warning: Can't find file '/Game/FBX/aluminium'
+[2016.07.26-18.28.40:849][985]LogLinker:Warning: Can't find file '/Game/FBX/mpm_F18_icons_mask'
+[2016.07.26-18.28.40:849][985]LogLinker:Warning: Can't find file '/Game/FBX/mpm_F18_icons_mask'
+[2016.07.26-18.28.40:849][985]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FBX/mpm_F18_icons_mask.mpm_F18_icons_mask'
+[2016.07.26-18.28.40:850][985]LogStreaming:Warning: Failed to read file 'G:\MPM\FREE\F18 Apple iMac 27\collect\mpm_F18_icons_mask.JPG' error.
+[2016.07.26-18.28.40:850][985]LogStreaming:Warning: Failed to read file 'D:\Unity dosyalar\3dmodels/mpm_F18_icons_mask.JPG' error.
+[2016.07.26-18.28.40:850][985]LogStreaming:Warning: Failed to read file 'D:\Unity dosyalar\3dmodels/mpm_F18_icons_mask.JPG' error.
+[2016.07.26-18.28.40:850][985]LogFbxMaterialImport:Warning: Unable to find TEXTure file mpm_F18_icons_mask.JPG. Tried:
+ - G:\MPM\FREE\F18 Apple iMac 27\collect\mpm_F18_icons_mask.JPG
+ - D:\Unity dosyalar\3dmodels/mpm_F18_icons_mask.JPG
+ - D:\Unity dosyalar\3dmodels/mpm_F18_icons_mask.JPG
+[2016.07.26-18.28.40:853][985]LogMaterial: Missing cached shader map for material aluminium, compiling. 
+[2016.07.26-18.28.40:870][985]LogLinker:Warning: Can't find file '/Game/FBX/rubber'
+[2016.07.26-18.28.40:870][985]LogLinker:Warning: Can't find file '/Game/FBX/rubber'
+[2016.07.26-18.28.40:874][985]LogMaterial: Missing cached shader map for material rubber, compiling. 
+[2016.07.26-18.28.40:901][985]LogFbx:Warning: Triangulating static mesh Apple iMac 27 - leg
+[2016.07.26-18.28.43:505][985]LogLinker:Warning: Can't find file '/Game/FBX/black_plastic'
+[2016.07.26-18.28.43:505][985]LogLinker:Warning: Can't find file '/Game/FBX/black_plastic'
+[2016.07.26-18.28.43:509][985]LogMaterial: Missing cached shader map for material black_plastic, compiling. 
+[2016.07.26-18.28.43:526][985]LogLinker:Warning: Can't find file '/Game/FBX/glass'
+[2016.07.26-18.28.43:527][985]LogLinker:Warning: Can't find file '/Game/FBX/glass'
+[2016.07.26-18.28.43:530][985]LogMaterial: Missing cached shader map for material glass, compiling. 
+[2016.07.26-18.28.43:550][985]LogLinker:Warning: Can't find file '/Game/FBX/glass_frame'
+[2016.07.26-18.28.43:550][985]LogLinker:Warning: Can't find file '/Game/FBX/glass_frame'
+[2016.07.26-18.28.43:554][985]LogMaterial: Missing cached shader map for material glass_frame, compiling. 
+[2016.07.26-18.28.43:575][985]LogLinker:Warning: Can't find file '/Game/FBX/display_frame'
+[2016.07.26-18.28.43:575][985]LogLinker:Warning: Can't find file '/Game/FBX/display_frame'
+[2016.07.26-18.28.43:579][985]LogMaterial: Missing cached shader map for material display_frame, compiling. 
+[2016.07.26-18.28.43:599][985]LogLinker:Warning: Can't find file '/Game/FBX/display'
+[2016.07.26-18.28.43:599][985]LogLinker:Warning: Can't find file '/Game/FBX/display'
+[2016.07.26-18.28.43:600][985]LogLinker:Warning: Can't find file '/Game/FBX/mpm_F18_desktop_diff'
+[2016.07.26-18.28.43:600][985]LogLinker:Warning: Can't find file '/Game/FBX/mpm_F18_desktop_diff'
+[2016.07.26-18.28.43:600][985]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FBX/mpm_F18_desktop_diff.mpm_F18_desktop_diff'
+[2016.07.26-18.28.43:600][985]LogStreaming:Warning: Failed to read file 'mpm_F18_desktop_diff.JPG' error.
+[2016.07.26-18.28.43:600][985]LogStreaming:Warning: Failed to read file 'D:\Unity dosyalar\3dmodels/..\collect\mpm_F18_desktop_diff.JPG' error.
+[2016.07.26-18.28.43:600][985]LogStreaming:Warning: Failed to read file 'D:\Unity dosyalar\3dmodels/mpm_F18_desktop_diff.JPG' error.
+[2016.07.26-18.28.43:600][985]LogFbxMaterialImport:Warning: Unable to find TEXTure file mpm_F18_desktop_diff.JPG. Tried:
+ - mpm_F18_desktop_diff.JPG
+ - D:\Unity dosyalar\3dmodels/..\collect\mpm_F18_desktop_diff.JPG
+ - D:\Unity dosyalar\3dmodels/mpm_F18_desktop_diff.JPG
+[2016.07.26-18.28.43:604][985]LogMaterial: Missing cached shader map for material display, compiling. 
+[2016.07.26-18.28.43:624][985]LogLinker:Warning: Can't find file '/Game/FBX/matt_white_plastic'
+[2016.07.26-18.28.43:624][985]LogLinker:Warning: Can't find file '/Game/FBX/matt_white_plastic'
+[2016.07.26-18.28.43:629][985]LogMaterial: Missing cached shader map for material matt_white_plastic, compiling. 
+[2016.07.26-18.28.43:650][985]LogLinker:Warning: Can't find file '/Game/FBX/metal'
+[2016.07.26-18.28.43:650][985]LogLinker:Warning: Can't find file '/Game/FBX/metal'
+[2016.07.26-18.28.43:654][985]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2016.07.26-18.28.43:677][985]LogLinker:Warning: Can't find file '/Game/FBX/yellow_metal'
+[2016.07.26-18.28.43:678][985]LogLinker:Warning: Can't find file '/Game/FBX/yellow_metal'
+[2016.07.26-18.28.43:683][985]LogMaterial: Missing cached shader map for material yellow_metal, compiling. 
+[2016.07.26-18.28.43:708][985]LogLinker:Warning: Can't find file '/Game/FBX/camera'
+[2016.07.26-18.28.43:708][985]LogLinker:Warning: Can't find file '/Game/FBX/camera'
+[2016.07.26-18.28.43:711][985]LogLinker:Warning: Can't find file '/Game/FBX/mpm_F18_camera_diff'
+[2016.07.26-18.28.43:711][985]LogLinker:Warning: Can't find file '/Game/FBX/mpm_F18_camera_diff'
+[2016.07.26-18.28.43:711][985]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FBX/mpm_F18_camera_diff.mpm_F18_camera_diff'
+[2016.07.26-18.28.43:711][985]LogStreaming:Warning: Failed to read file 'mpm_F18_camera_diff.JPG' error.
+[2016.07.26-18.28.43:711][985]LogStreaming:Warning: Failed to read file 'D:\Unity dosyalar\3dmodels/..\collect\mpm_F18_camera_diff.JPG' error.
+[2016.07.26-18.28.43:711][985]LogStreaming:Warning: Failed to read file 'D:\Unity dosyalar\3dmodels/mpm_F18_camera_diff.JPG' error.
+[2016.07.26-18.28.43:711][985]LogFbxMaterialImport:Warning: Unable to find TEXTure file mpm_F18_camera_diff.JPG. Tried:
+ - mpm_F18_camera_diff.JPG
+ - D:\Unity dosyalar\3dmodels/..\collect\mpm_F18_camera_diff.JPG
+ - D:\Unity dosyalar\3dmodels/mpm_F18_camera_diff.JPG
+[2016.07.26-18.28.43:716][985]LogMaterial: Missing cached shader map for material camera, compiling. 
+[2016.07.26-18.28.43:912][985]LogFbx:Warning: Triangulating static mesh Apple iMac 27 - display
+[2016.07.26-18.29.14:294][985]LogStaticMesh: Building static mesh AppleOneinOne...
+[2016.07.26-18.29.17:112][985]LogStaticMesh: Built static mesh [2.82s] /Game/FBX/AppleOneinOne.AppleOneinOne
+[2016.07.26-18.29.17:703][985]LogStaticMesh:Warning: AppleOneinOne has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.26-18.29.17:771][985]FBXImport:Warning: Warning AppleOneinOne has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.26-18.30.41:269][270]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 111 classes and 0 folders.
+[2016.07.26-18.30.56:982][602]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2016.07.26-18.31.02:177][212]Cmd: CLOSE_SLATE_MAINFRAME
+[2016.07.26-18.31.04:458][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CreatedObjects/WebBP" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/CreatedObjects/WebBP.uasset" SILENT=true
+[2016.07.26-18.31.04:481][212]LogSavePackage: Save=9.61ms
+[2016.07.26-18.31.04:481][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/WebBPF7FE384E46E1BCE9D2A5FC8CB2522B95.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/CreatedObjects/WebBP.uasset'
+[2016.07.26-18.31.04:482][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/CreatedObjects/WebBP.uasset
+[2016.07.26-18.31.04:485][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CreatedObjects/WebWidget" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/CreatedObjects/WebWidget.uasset" SILENT=true
+[2016.07.26-18.31.04:491][212]LogSavePackage: Save=5.59ms
+[2016.07.26-18.31.04:491][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/WebWidget14274BC342A93EA14CBE2E8D5C15C3B1.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/CreatedObjects/WebWidget.uasset'
+[2016.07.26-18.31.04:492][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/CreatedObjects/WebWidget.uasset
+[2016.07.26-18.31.04:525][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/aluminium" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/aluminium.uasset" SILENT=true
+[2016.07.26-18.31.04:538][212]LogSavePackage: Save=12.40ms
+[2016.07.26-18.31.04:538][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/aluminium2E711B5B44CECAD30D235AA3640273B9.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/aluminium.uasset'
+[2016.07.26-18.31.04:539][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/aluminium.uasset
+[2016.07.26-18.31.04:561][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/AppleOneinOne" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/AppleOneinOne.uasset" SILENT=true
+[2016.07.26-18.31.04:580][212]LogSavePackage: Save=18.63ms
+[2016.07.26-18.31.04:580][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/AppleOneinOne9C8A4B3C46946FA0FD159899A4C66CE7.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/AppleOneinOne.uasset'
+[2016.07.26-18.31.04:581][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/AppleOneinOne.uasset
+[2016.07.26-18.31.04:616][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/black_plastic" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/black_plastic.uasset" SILENT=true
+[2016.07.26-18.31.04:630][212]LogSavePackage: Save=13.13ms
+[2016.07.26-18.31.04:630][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/black_plasticB6DC1BDB4AB61531236BF69748BF7CC4.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/black_plastic.uasset'
+[2016.07.26-18.31.04:631][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/black_plastic.uasset
+[2016.07.26-18.31.04:654][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/camera" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/camera.uasset" SILENT=true
+[2016.07.26-18.31.04:667][212]LogSavePackage: Save=12.10ms
+[2016.07.26-18.31.04:667][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/camera138652364CB1C7CAB34671925D2589D5.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/camera.uasset'
+[2016.07.26-18.31.04:668][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/camera.uasset
+[2016.07.26-18.31.04:690][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/display" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/display.uasset" SILENT=true
+[2016.07.26-18.31.04:703][212]LogSavePackage: Save=12.40ms
+[2016.07.26-18.31.04:703][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/display7366EE8746A474E3EF48A7BAA66FC01A.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/display.uasset'
+[2016.07.26-18.31.04:704][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/display.uasset
+[2016.07.26-18.31.04:734][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/display_frame" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/display_frame.uasset" SILENT=true
+[2016.07.26-18.31.04:748][212]LogSavePackage: Save=13.08ms
+[2016.07.26-18.31.04:748][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/display_frame9FB008704BDCB64EE9302F87BC97E95E.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/display_frame.uasset'
+[2016.07.26-18.31.04:749][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/display_frame.uasset
+[2016.07.26-18.31.04:772][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/glass" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/glass.uasset" SILENT=true
+[2016.07.26-18.31.04:785][212]LogSavePackage: Save=12.05ms
+[2016.07.26-18.31.04:785][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/glassA505EB10498CFEE4BD13A1AE143E1945.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/glass.uasset'
+[2016.07.26-18.31.04:786][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/glass.uasset
+[2016.07.26-18.31.04:808][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/glass_frame" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/glass_frame.uasset" SILENT=true
+[2016.07.26-18.31.04:822][212]LogSavePackage: Save=13.49ms
+[2016.07.26-18.31.04:822][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/glass_frame8E1CFB5B42B93B42193E3283282B6B1F.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/glass_frame.uasset'
+[2016.07.26-18.31.04:823][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/glass_frame.uasset
+[2016.07.26-18.31.04:854][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Material" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material.uasset" SILENT=true
+[2016.07.26-18.31.04:866][212]LogSavePackage: Save=11.90ms
+[2016.07.26-18.31.04:867][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/MaterialD2B99147437A7EA668909BB8960A7661.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material.uasset'
+[2016.07.26-18.31.04:868][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material.uasset
+[2016.07.26-18.31.04:891][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Material_001" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material_001.uasset" SILENT=true
+[2016.07.26-18.31.04:903][212]LogSavePackage: Save=11.72ms
+[2016.07.26-18.31.04:903][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/Material_0010FA0D7D24CCA2089447F1C9B02E4BF56.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material_001.uasset'
+[2016.07.26-18.31.04:904][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material_001.uasset
+[2016.07.26-18.31.04:927][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Material_002" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material_002.uasset" SILENT=true
+[2016.07.26-18.31.04:940][212]LogSavePackage: Save=12.01ms
+[2016.07.26-18.31.04:940][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/Material_00263D085F84C680E1B148E4C9380262414.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material_002.uasset'
+[2016.07.26-18.31.04:941][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material_002.uasset
+[2016.07.26-18.31.04:964][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Material_003" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material_003.uasset" SILENT=true
+[2016.07.26-18.31.04:977][212]LogSavePackage: Save=12.06ms
+[2016.07.26-18.31.04:977][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/Material_0032985458044B1EEB6B4DC718C10E9F741.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material_003.uasset'
+[2016.07.26-18.31.04:978][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material_003.uasset
+[2016.07.26-18.31.05:000][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Material_004" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material_004.uasset" SILENT=true
+[2016.07.26-18.31.05:013][212]LogSavePackage: Save=11.94ms
+[2016.07.26-18.31.05:013][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/Material_00475804E8745DEBA728A77199A4F946BC9.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material_004.uasset'
+[2016.07.26-18.31.05:014][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material_004.uasset
+[2016.07.26-18.31.05:037][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Material_005" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material_005.uasset" SILENT=true
+[2016.07.26-18.31.05:050][212]LogSavePackage: Save=11.91ms
+[2016.07.26-18.31.05:050][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/Material_005B60AC39B4C1133245F63C5A6F853A93C.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material_005.uasset'
+[2016.07.26-18.31.05:051][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Material_005.uasset
+[2016.07.26-18.31.05:080][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/matt_white_plastic" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/matt_white_plastic.uasset" SILENT=true
+[2016.07.26-18.31.05:093][212]LogSavePackage: Save=11.92ms
+[2016.07.26-18.31.05:093][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/matt_white_plastic81BB7B1D4D6C9CB9D94B98BB7CACF831.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/matt_white_plastic.uasset'
+[2016.07.26-18.31.05:094][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/matt_white_plastic.uasset
+[2016.07.26-18.31.05:117][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/metal" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/metal.uasset" SILENT=true
+[2016.07.26-18.31.05:130][212]LogSavePackage: Save=12.09ms
+[2016.07.26-18.31.05:130][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/metal7F42E20B4A29955B0E01E9A3AC5CD41D.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/metal.uasset'
+[2016.07.26-18.31.05:131][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/metal.uasset
+[2016.07.26-18.31.05:153][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/rubber" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/rubber.uasset" SILENT=true
+[2016.07.26-18.31.05:166][212]LogSavePackage: Save=12.53ms
+[2016.07.26-18.31.05:166][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/rubber8158C06F4C6E280AA0A135AE9D6444A6.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/rubber.uasset'
+[2016.07.26-18.31.05:167][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/rubber.uasset
+[2016.07.26-18.31.05:190][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Tablexwsssss" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Tablexwsssss.uasset" SILENT=true
+[2016.07.26-18.31.05:207][212]LogSavePackage: Save=16.04ms
+[2016.07.26-18.31.05:207][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/TablexwsssssED1F178D46CE1A04E74D9F90C10EC428.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Tablexwsssss.uasset'
+[2016.07.26-18.31.05:208][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/Tablexwsssss.uasset
+[2016.07.26-18.31.05:230][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/yellow_metal" FILE="../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/yellow_metal.uasset" SILENT=true
+[2016.07.26-18.31.05:244][212]LogSavePackage: Save=12.39ms
+[2016.07.26-18.31.05:244][212]LogSavePackage: Moving '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Saved/yellow_metal245A01BE4853A18D3C06EC82EFA1C6AF.tmp' to '../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/yellow_metal.uasset'
+[2016.07.26-18.31.05:245][212]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealEngine4Projects/VRWorkPlaceDes/Content/FBX/yellow_metal.uasset
+[2016.07.26-18.31.05:472][213]Cmd: QUIT_EDITOR
+[2016.07.26-18.31.05:557][213]LogExit: Preparing to exit.
+[2016.07.26-18.31.06:533][213]LogExit: Editor shut down
+[2016.07.26-18.31.06:534][213]LogExit: Transaction tracking system shut down
+[2016.07.26-18.31.06:765][213]LogObj: Freed 0b from 0 cluster array pools.
+[2016.07.26-18.31.06:766][213]LogExit: Object subsystem successfully closed.
+[2016.07.26-18.31.06:791][213]LogD3D11RHI: Shutdown
+[2016.07.26-18.31.06:791][213]LogD3D11RHI: CleanupD3DDevice
+[2016.07.26-18.31.06:869][213]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.07.26-18.31.06:883][213]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (216)
+[2016.07.26-18.31.06:883][213]LogModuleManager: Shutting down and abandoning module SequencerWidgets (215)
+[2016.07.26-18.31.06:883][213]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
+[2016.07.26-18.31.06:883][213]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.07.26-18.31.06:883][213]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.07.26-18.31.06:883][213]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.07.26-18.31.06:883][213]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.07.26-18.31.06:883][213]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.07.26-18.31.06:885][213]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.07.26-18.31.06:885][213]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.07.26-18.31.06:885][213]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.07.26-18.31.06:885][213]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.07.26-18.31.06:885][213]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.07.26-18.31.06:885][213]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.07.26-18.31.06:886][213]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.07.26-18.31.06:887][213]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.07.26-18.31.06:887][213]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.07.26-18.31.06:887][213]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.07.26-18.31.06:887][213]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.07.26-18.31.07:036][213]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.07.26-18.31.07:036][213]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.07.26-18.31.07:036][213]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.07.26-18.31.07:036][213]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.07.26-18.31.07:036][213]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.07.26-18.31.07:036][213]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.07.26-18.31.07:036][213]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.07.26-18.31.07:036][213]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.07.26-18.31.07:036][213]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.07.26-18.31.07:036][213]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.07.26-18.31.07:036][213]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.07.26-18.31.07:036][213]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.07.26-18.31.07:036][213]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.07.26-18.31.07:036][213]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.07.26-18.31.07:036][213]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.07.26-18.31.07:036][213]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.07.26-18.31.07:037][213]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.07.26-18.31.07:037][213]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.07.26-18.31.07:037][213]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.07.26-18.31.07:037][213]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.07.26-18.31.07:037][213]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.07.26-18.31.07:037][213]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.07.26-18.31.07:037][213]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.07.26-18.31.07:037][213]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.07.26-18.31.07:037][213]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.07.26-18.31.07:077][213]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.07.26-18.31.07:077][213]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.07.26-18.31.07:077][213]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.07.26-18.31.07:077][213]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.07.26-18.31.07:077][213]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.07.26-18.31.07:077][213]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.07.26-18.31.07:077][213]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.07.26-18.31.07:077][213]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.07.26-18.31.07:077][213]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.07.26-18.31.07:077][213]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.07.26-18.31.07:079][213]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.07.26-18.31.07:079][213]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.07.26-18.31.07:079][213]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.07.26-18.31.07:079][213]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.07.26-18.31.07:079][213]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.07.26-18.31.07:079][213]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.07.26-18.31.07:079][213]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.07.26-18.31.07:079][213]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.07.26-18.31.07:079][213]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.07.26-18.31.07:079][213]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.07.26-18.31.07:079][213]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.07.26-18.31.07:079][213]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.07.26-18.31.07:079][213]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.07.26-18.31.07:079][213]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.07.26-18.31.07:079][213]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.07.26-18.31.07:079][213]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.07.26-18.31.07:122][213]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.07.26-18.31.07:123][213]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.07.26-18.31.07:123][213]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.07.26-18.31.07:123][213]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.07.26-18.31.07:123][213]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.07.26-18.31.07:123][213]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.07.26-18.31.07:123][213]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.07.26-18.31.07:123][213]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.07.26-18.31.07:123][213]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.07.26-18.31.07:123][213]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.07.26-18.31.07:123][213]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.07.26-18.31.07:123][213]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.07.26-18.31.07:123][213]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.07.26-18.31.07:123][213]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.07.26-18.31.07:123][213]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.07.26-18.31.07:124][213]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.07.26-18.31.07:125][213]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.07.26-18.31.07:125][213]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.07.26-18.31.07:225][213]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.07.26-18.31.07:225][213]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.07.26-18.31.07:225][213]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.07.26-18.31.07:225][213]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.07.26-18.31.07:225][213]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.07.26-18.31.07:225][213]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.07.26-18.31.07:225][213]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.07.26-18.31.07:225][213]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.07.26-18.31.07:225][213]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.07.26-18.31.07:225][213]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.07.26-18.31.07:225][213]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.07.26-18.31.07:226][213]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.07.26-18.31.07:226][213]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.07.26-18.31.07:226][213]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.07.26-18.31.07:226][213]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.07.26-18.31.07:226][213]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.07.26-18.31.07:226][213]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.07.26-18.31.07:226][213]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.07.26-18.31.07:226][213]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.07.26-18.31.07:226][213]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.07.26-18.31.07:226][213]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.07.26-18.31.07:226][213]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.07.26-18.31.07:226][213]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.07.26-18.31.07:226][213]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.07.26-18.31.07:228][213]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.07.26-18.31.07:228][213]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.07.26-18.31.07:228][213]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.07.26-18.31.07:228][213]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.07.26-18.31.07:228][213]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.07.26-18.31.07:228][213]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.07.26-18.31.07:229][213]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.07.26-18.31.07:376][213]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.07.26-18.31.07:376][213]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.07.26-18.31.07:376][213]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.07.26-18.31.07:376][213]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.07.26-18.31.07:401][213]LogDerivedDataCache: Shutdown
+[2016.07.26-18.31.07:401][213]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.07.26-18.31.07:401][213]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.07.26-18.31.07:401][213]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.07.26-18.31.07:401][213]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.07.26-18.31.07:401][213]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.07.26-18.31.07:401][213]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.07.26-18.31.07:401][213]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.07.26-18.31.07:401][213]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.07.26-18.31.07:401][213]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.07.26-18.31.07:401][213]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.07.26-18.31.07:401][213]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.07.26-18.31.07:401][213]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.07.26-18.31.07:401][213]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.07.26-18.31.07:401][213]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.07.26-18.31.07:402][213]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.07.26-18.31.12:411][213]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.07.26-18.31.12:411][213]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.07.26-18.31.12:411][213]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.07.26-18.31.12:411][213]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.07.26-18.31.12:411][213]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.07.26-18.31.12:411][213]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.07.26-18.31.12:411][213]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.07.26-18.31.12:414][213]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.07.26-18.31.12:414][213]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.07.26-18.31.12:414][213]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.07.26-18.31.12:414][213]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.07.26-18.31.12:414][213]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.07.26-18.31.12:414][213]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.07.26-18.31.12:414][213]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.07.26-18.31.12:414][213]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.07.26-18.31.12:414][213]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.07.26-18.31.12:414][213]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.07.26-18.31.12:416][213]LogExit: Exiting.
+[2016.07.26-18.31.12:429][213]Log file closed, 07/26/16 21:31:12
